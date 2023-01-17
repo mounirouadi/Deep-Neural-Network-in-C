@@ -14,3 +14,26 @@ These instructions will get you a copy of the project up and running on your loc
 * Compile the code using the following command:
 ' gcc -o main main.c '
 
+* Run the program using the following command:
+Copy code
+`./main`
+## Saving and Loading the Weights and Biases
+The program includes functions to save and load the weights and biases of the trained network.
+
+* To save the weights and biases, you can call the function save_weights_biases(char* file_name) and pass the desired file name as a string to the function.
+For example:
+`save_weights_biases("weights_biases.bin");`
+This will save the weights and biases to the file "weights_biases.bin" in the same directory as the program.
+
+* To load the weights and biases, you can call the function load_weights_biases(char* file_name) and pass the file name as a string to the function.
+For example:
+`load_weights_biases("weights_biases.bin");`
+
+## Running the tests
+The program will train the neural network on the MNIST training dataset and test it on the MNIST test dataset. The program will print the prediction for each test image.
+
+## Authors
+OUADI Mounir - Initial work
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
