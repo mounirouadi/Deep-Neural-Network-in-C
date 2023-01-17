@@ -33,7 +33,7 @@ For example:
 The program will train the neural network on the MNIST training dataset and test it on the MNIST test dataset. The program will print the prediction for each test image.
 
 ## Authors
-OUADI Mounir - Initial work
+OUADI Mounir - [@mounirouadi](https://github.com/mounirouadi/)
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
