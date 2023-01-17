@@ -32,6 +32,11 @@ For example:
 ## Running the tests
 The program will train the neural network on the MNIST training dataset and test it on the MNIST test dataset. The program will print the prediction for each test image.
 
+## To Do
+* Use vectorization techniques for matrice operations.
+* Use multithreading to optimize the runtime.
+* Migrate to C++ for OOP support.
+
 ## Authors
 OUADI Mounir - [@mounirouadi](https://github.com/mounirouadi/)
 ## License
